@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>The Menu</title>
+    </head>
+    <body>
+        
+            <b><h1 class="et">Delicious Bites</h1></b>
+            <b><p class="rt">Welcome to Delicious Bites! Enjoy our fresh and testy dishes</p></b>
+            <lu >
+           <li > <a href="home"> Home </a></li>
+           <li > <a href="index.html"> Menu </a></li>
+           <li ><a href="about us"> About Us </a></li>
+           <li > <a href="contact"> Contact </a></li>
+           </lu>
+   
+
+        <h2 class="te">Our Menu</h2>
+        <table border="1">
+        <tr>
+            <th>Dish</th>
+            <td>Price</td>
+        </tr>
+        <tr>
+            <th>Caprese Salad</th>
+            <td>$10.99</td>
+        </tr>
+        <tr>
+            <th>Grilled Salmon</th>
+            <td>$8.99</td>
+        </tr>
+        <tr>
+            <th>Caesar Salade</th>
+            <td>$7.49</td>
+        </tr>
+        <tr>
+            <th>Tiramisu</th>
+            <td>$12.99</td>
+        </tr>
+        <tr>
+            <th>Chocolate Fondue</th>
+            <td>$5.99</td>
+        </tr>
+    </table>
+  
+    <h2 class="te">Reserve a Table</h2>
+    <form>
+        <br><label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+      
+        <br><label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+       
+        <br><label for="date">Reservation Date:</label>
+        <input type="date" id="date" name="date"><br>
+       
+        <br><label for="guests">Number of Guests:</label>
+        <input type="number" id="geusts" name="geusts"><br>
+
+        <br><label for="requests">Specail Resquests</label>
+        <textarea id="requests" name="requests"></textarea><br>
+
+        <br><input type="checkbox" id="allergyCheck" name="has_allergies">
+        <label for="allergyCheck">I have allergies</label><br>
+
+       <h3><label>Preference:</label><br></h3>
+        <input type="radio" id="lunch" name="meal" value="Lunch">
+        <label for="lunch">Lunch</label><br>
+
+        <input type="radio" id="dinner" name="meal" value="Dinner">
+        <label for="dinner">Dinner</label><br>
+
+
+         <label for="allergies">Please specify your allergies:</label><br>
+        <input type="text" id="allergies" name="allergies"><br>
+
+        <br><button type="submit">Reserve Now</button>
+    </form>
+</body>
+</html>
